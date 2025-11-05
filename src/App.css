@@ -5,7 +5,7 @@
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
   position: relative;
   overflow: hidden;
 }
@@ -55,7 +55,7 @@
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -92,10 +92,10 @@
   padding: 1rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
-  border: 2px solid #ddd;
+  border: 2px solid #e1bee7;
   border-radius: 12px;
   background: white;
-  color: #666;
+  color: #9c27b0;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -131,10 +131,10 @@
 
 .mode-btn.active,
 .difficulty-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
   color: white;
   border-color: transparent;
-  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 20px rgba(156, 39, 176, 0.4);
 }
 
 .difficulty-btn.easy.active {
@@ -202,7 +202,7 @@
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -441,7 +441,7 @@
 }
 
 .control-btn.reset {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
 }
 
 .control-btn.settings {
